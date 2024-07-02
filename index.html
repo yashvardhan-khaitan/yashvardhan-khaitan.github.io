@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yashvardhan Khaitan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/744317e44f.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="intro">
+        <div class="header-text">
+            <h1>Hey! 👋 I'm Yash Khaitan</h1>
+            <h3>Senior @ Purdue studying Computer Science</h4>
+            <h4>Mobile + AI/ML Developer & Enthusiast</h6>
+        </div>
+        <div class="learn-more" onclick="document.querySelector('.container').scrollIntoView({ behavior: 'smooth' });">
+            <i class="fas fa-angle-down"></i>
+        </div>
+    </div>
+    <!-- <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work-experience">Work Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+        </ul>
+    </nav> -->
+
+    <div class="container">
+        <section id="about" class="about">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>👨‍💻 I have a deep passion for exploring the intersection of mobile development and artificial intelligence.</p>
+                <p>🎬 Film and storytelling are my great loves, with Sci-Fi and Biopics being my favorite genres. Currently, "Blade Runner 2049" tops my list of favorite movies.</p>
+                <p>☕️ As a coffee enthusiast, I take delight in using the WDT tool. My favorite drink is a rich, flavorful Café Cubano.</p>
+                <p>🔧 I enjoy hacking tools to tackle small problems and thrive on networking with like-minded individuals within the startup ecosystem.</p>
+                <div class="contact-info">
+                    <h3>Contact Information:</h3>
+                    <p>📧 Email: yashv.khaitan@gmail.com</p>
+                    <p>📞 Phone: 925-660-9495</p>
+                    <p>📍 Location: Dublin, CA</p>
+                </div>
+                <div class="social-icons">
+                    <a href="https://linkedin.com/in/yashvardhan-khaitan" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/yashvardhan-khaitan" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://x.com/yashvkhaitan" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <img src="images/IMG_6861.jpg" alt="Yashvardhan Khaitan">
+        </section>
+
+        <section id="education">
+            <div class="section-title">Education</div>
+            <div class="grid-section">
+                <div class="grid-item">
+                    <div class="item-header">Purdue University</div>
+                    <div class="item-location">West Lafayette, IN</div>
+                    <div class="item-subheader">B.S. Computer Science (Concentration in Security)</div>
+                    <div class="item-date">Expected: December 2024</div>
+                    <div class="item-description">
+                        Activities: Purdue iOS Development Club, ACM SIGAPP, LaunchPad Mentor
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="item-header">Dublin High School</div>
+                    <div class="item-location">Dublin, CA</div>
+                    <div class="item-subheader">Advanced Scholar Diploma</div>
+                    <div class="item-date">Aug 2017 - May 2021</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work-experience">
+            <div class="section-title">Work Experience</div>
+            <div class="grid-section">
+                <div class="grid-item">
+                    <div class="item-header">Undergraduate Research Assistant</div>
+                    <div class="item-location">IDEAS-Lab, West Lafayette, IN</div>
+                    <div class="item-date">Jan 2023 – May 2024</div>
+                    <div class="item-description">
+                        <ul>
+                            <li>Spearheaded development of "AffectEcho", an emotion translation model utilizing a Vector Quantized (VQ) codebook to capture and replicate five distinct levels of emotional intensity in speech to enhance the emotional accuracy of synthesized audio.</li>
+                            <li>Optimized neural network performance by fine-tuning the Adam optimizer, resulting in 15% faster training efficiency and 10% higher model accuracy.</li>
+                            <li>Collaborated on integrating the model with text-to-speech systems to enable effective cross-language emotion transfer while maintaining speaker identity.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="item-header">Instructor and Emcee</div>
+                    <div class="item-location">CoderDojo, Dublin, CA</div>
+                    <div class="item-date">Apr 2017 – Mar 2019</div>
+                    <div class="item-description">
+                        <ul>
+                            <li>Developed a comprehensive month-long curriculum to teach 100 students JavaScript & HTML/CSS.</li>
+                            <li>Emceed “lightning talks” where students showcased projects they developed under the curriculum.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="section-title">Projects</div>
+            <div class="grid-section">
+                <div class="grid-item">
+                    <div class="item-header">Coral</div>
+                    <div class="item-date">May 2024 - Present</div>
+                    <div class="item-description">
+                        <p>Python, Flask, Pandas, ChromaDB, Docker</p>
+                        <p>A Retrieval-Augmented Generation (RAG) application using LLM techniques for personalized advice on academics and campus life at Purdue. Leverages past student experiences through forum discussions, indexing over 100,000 documents in a vector database to enhance accuracy and optimize retrieval processes.</p>
+                        <a href="https://coral-blue.vercel.app/" target="_blank">Try it out</a>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="item-header">Imboard</div>
+                    <div class="item-date">May 2023 - Present</div>
+                    <div class="item-description">
+                        <p>Swift UIKit, Google Firebase, CocoaPods</p>
+                        <p>A mobile app for organizations to post flyers of events @ Purdue. Leading a team of dedicated students to develop the app. Currently being used by over 200 students.</p>
+                        <a href="https://apps.apple.com/us/app/imboard/id6449878483" target="_blank">Try it out</a>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="item-header">Boilerplate</div>
+                    <div class="item-date">Jan 2024 - Feb 2024</div>
+                    <div class="item-description">
+                        <p>TypeScript, React.js, Next.js, Vercel</p>
+                        <p>An AI-powered recommendation platform for Purdue students to make healthier food choices at dining courts. Developed on top of OpenAI’s chat completion API.</p>
+                        <a href="https://boiler-plate-blue.vercel.app/" target="_blank">Try it out</a>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="item-header">Book-Academic</div>
+                    <div class="item-date">Aug 2023 - Dec 2023</div>
+                    <div class="item-description">
+                        <p>React.js, Node.js, MongoDB, Google Firebase</p>
+                        <p>A website marketplace built with the MERN stack, for Purdue students to buy and sell textbooks. Features advanced search filters, notifications for transaction updates, and a user-friendly interface.</p>
+                        <a href="http://book-ademic.com/" target="_blank">Try it out</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="section-title">Skills</div>
+            <div class="grid-section">
+                <div class="grid-item">
+                    <ul>
+                        <li><strong>Programming Languages:</strong> Python, Java, JavaScript/TypeScript, Swift, SQL</li>
+                        <li><strong>AI & ML:</strong> PyTorch, Pandas, LangChain, Sentence Transformers, Embeddings, Semantic Search Algorithms, Large Language Models (LLMs)</li>
+                        <li><strong>Web Development:</strong> Flask, React.js, Node.js, Next.js, Express.js</li>
+                        <li><strong>Mobile Development:</strong> Swift UIKit, CocoaPods</li>
+                        <li><strong>Data Management:</strong> Vector Databases (ChromaDB), MongoDB, MySQL, Firebase</li>
+                        <li><strong>Cloud Platforms:</strong> AWS (S3, EC2), GCP (Compute Engine, Cloud Run, Cloud Scheduler)</li>
+                        <li><strong>DevOps & Deployment:</strong> Docker, Heroku, Vercel</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Connect with me:</p>
+            <a href="https://linkedin.com/in/yashvardhan-khaitan"><i class="fab fa-linkedin"></i> LinkedIn</a> |
+            <a href="https://github.com/yashvardhan-khaitan"><i class="fab fa-github"></i> GitHub</a> |
+            <a href="https://x.com/yashvkhaitan"><i class="fab fa-twitter"></i> Twitter</a>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const sections = document.querySelectorAll(".grid-item");
+            const options = {
+                root: null,
+                rootMargin: "0px",
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = 1;
+                        entry.target.style.transform = "translateY(0)";
+                    }
+                });
+            }, options);
+
+            sections.forEach(section => {
+                section.style.opacity = 0;
+                section.style.transform = "translateY(20px)";
+                observer.observe(section);
+            });
+        });
+    </script>
+</body>
+
+</html>
